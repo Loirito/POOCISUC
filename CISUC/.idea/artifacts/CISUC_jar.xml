@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CISUC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CISUC_jar</output-path>
+    <root id="archive" name="CISUC.jar">
+      <element id="module-output" name="CISUC" />
+    </root>
+  </artifact>
+</component>
