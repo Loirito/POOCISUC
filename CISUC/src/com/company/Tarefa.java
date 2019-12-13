@@ -1,9 +1,10 @@
 package com.company;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public abstract class Tarefa {
+public abstract class Tarefa implements Serializable {
 
     protected Calendar inicio;
     protected double duracao;
@@ -18,7 +19,11 @@ public abstract class Tarefa {
         this.fim = Calendar.getInstance();
     }
 
-    public Tarefa() { }
+    public Tarefa() {
+        this.inicio = Calendar.getInstance();
+        this.fim = Calendar.getInstance();
+        this.percConclusao = 0.0;
+    }
 
     public void insereDatas() {
         System.out.println("Insira a data de inicio da tarefa.");

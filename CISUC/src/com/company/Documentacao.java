@@ -7,6 +7,11 @@ public class Documentacao extends Tarefa{
         this.esforco = 0.25;
     }
 
+    public Documentacao() {
+        super();
+        this.esforco = 0.25;
+    }
+
     @Override
     public String toString() {
         return "Documentacao";

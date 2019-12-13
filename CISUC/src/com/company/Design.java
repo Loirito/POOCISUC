@@ -7,7 +7,10 @@ public class Design extends Tarefa{
         this.esforco = 0.5;
     }
 
-    public Design() {   }
+    public Design() {
+        super();
+        this.esforco = 0.5;
+    }
 
     @Override
     public String toString() {

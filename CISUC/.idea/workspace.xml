@@ -2,32 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb04141-213a-4d21-92aa-7d8789585411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CISUC_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Bolseiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Bolseiro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Desenvolvimento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Desenvolvimento.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Design.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Design.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Docente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Docente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Documentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Documentacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Doutorado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Doutorado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Formando.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Formando.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Licenciado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Licenciado.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Mestre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Mestre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Pessoa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Projeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Projeto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CISUC/com/company/Tarefa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CISUC/com/company/Tarefa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Bolseiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Bolseiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Desenvolvimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Desenvolvimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Design.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Design.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Docente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Documentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Documentacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Formando.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Formando.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Licenciado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Licenciado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Mestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Mestre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Projeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Projeto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tarefa.java" afterDir="false" />
@@ -36,6 +22,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -105,26 +98,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="268" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576206842623" />
-    <state width="1878" height="279" key="GridCell.Tab.0.bottom" timestamp="1576208897513">
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom" timestamp="1576280865364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576208897513" />
-    <state width="1878" height="279" key="GridCell.Tab.0.center" timestamp="1576208897513">
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576280865364" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center" timestamp="1576280865364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="279" key="GridCell.Tab.0.center/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576208897513" />
-    <state width="1878" height="279" key="GridCell.Tab.0.left" timestamp="1576208897512">
+    <state width="1878" height="279" key="GridCell.Tab.0.center/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576280865364" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left" timestamp="1576280865364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="279" key="GridCell.Tab.0.left/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576208897512" />
-    <state width="1878" height="279" key="GridCell.Tab.0.right" timestamp="1576208897513">
+    <state width="1878" height="279" key="GridCell.Tab.0.left/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576280865364" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right" timestamp="1576280865364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="279" key="GridCell.Tab.0.right/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576208897513" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576280865364" />
     <state x="2573" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1576186380400">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2573" y="383" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576186380400" />
+    <state x="2020" y="132" width="1720" height="848" key="dock-window-1" timestamp="1576276818750">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="132" width="1720" height="848" key="dock-window-1/1920.0.1920.1080/0.32.1920.1048@1920.0.1920.1080" timestamp="1576276818750" />
     <state x="2543" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1576196506578">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

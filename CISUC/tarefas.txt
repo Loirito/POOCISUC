@@ -1,0 +1,10 @@
+50-Desenvolvimento
+30.0-Design
+40-Desenvolvimento
+10-Documentacao
+5-Documentacao
+13-Design
+17-Design
+20-Desenvolvimento
+22-Desenvolvimento
+7-Documentacao

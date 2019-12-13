@@ -1,9 +1,10 @@
 package com.company;
 
 import javax.print.Doc;
+import java.io.Serializable;
 import java.util.*;
 
-public class Projeto {
+public class Projeto implements Serializable {
 
     private String nomeProjeto;
     private String acronimo;
@@ -91,6 +92,13 @@ public class Projeto {
         else System.out.println("Nao foi possivel adicionar a tarefa a lista");
     }
 
+    public void listTarefas() {
+        System.out.println("Tarefas do projeto " + nomeProjeto + ":");
+        for(Tarefa tarefa : listaTarefas) {
+            System.out.println("Tarefa de " + tarefa.toString() + " com percentagem de conclusao " + tarefa.getPercConclusao());
+        }
+    }
+
     public void listTarefaNaoConc() {
         System.out.println("Tarefas nao concluidas:");
         for (Tarefa tarefa : listaTarefas) {
@@ -126,8 +134,43 @@ public class Projeto {
         }
     }
 
+    public void checkConc() {
+        if(estaConcluido) {
+            System.out.println("Projeto esta concluido!!!");
+            return;
+        }
+        if(listaTarefas.isEmpty()) {
+            System.out.println("Para concluir o projeto, tem de o iniciar primeiro.");
+            return;
+        }
+        int i = 0;
+        for(Tarefa tarefa : listaTarefas) {
+            if(tarefa.getPercConclusao() == 100) {
+                i++;
+            }
+        }
+        if(i == listaTarefas.size()) {
+            System.out.println("Projeto ficara agora marcado como concluido!!!");
+            setEstaConcluido();
+        }
+
+        else System.out.println("Projeto com tarefas por concluir.");
+    }
+
     private void setEstaConcluido() {
         estaConcluido = true;
-        return;
+    }
+
+    public String getNomeProjeto() {
+        return this.nomeProjeto;
+    }
+
+    public String getAcronimo() {
+        return this.acronimo;
+    }
+
+    @Override
+    public String toString() {
+        return "Projeto " + this.nomeProjeto + " [" + this.acronimo + "] com duracao de " + this.duracao + " dias";
     }
 }

@@ -1,8 +1,9 @@
 package com.company;
 
+import java.io.Serializable;
 import java.util.*;
 
-public abstract class Pessoa {
+public abstract class Pessoa implements Serializable {
     protected String nome;
     protected String email;
     protected List<Tarefa> listaTarefas;
@@ -47,5 +48,10 @@ public abstract class Pessoa {
 
     public String getEmail() {
         return this.email;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa: " + this.nome + " email: " + this.email;
     }
 }
