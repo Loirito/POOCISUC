@@ -4,7 +4,7 @@ import java.util.*;
 
 public abstract class Formando extends Bolseiro {
 
-    protected ArrayList<Docente> listaOrientadores;
+    protected List<Docente> listaOrientadores;
 
     public Formando(String nome, String email) {
         super(nome, email);
@@ -13,11 +13,15 @@ public abstract class Formando extends Bolseiro {
 
     public Formando() {     }
 
-    public ArrayList<Docente> getListaOrientadores() {
+    public List<Docente> getListaOrientadores() {
         return listaOrientadores;
     }
 
     public void addDocente(Docente docente) {
+        if(listaOrientadores.contains(docente)) {
+            System.out.println("Este docente ja esta associado ao Formando.");
+            return;
+        }
         listaOrientadores.add(docente);
     }
 

@@ -6,4 +6,9 @@ public class Desenvolvimento extends Tarefa{
         super(duracao);
         this.esforco = 1;
     }
+
+    @Override
+    public String toString() {
+        return "Desenvolvimento";
+    }
 }

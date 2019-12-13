@@ -8,4 +8,9 @@ public class Design extends Tarefa{
     }
 
     public Design() {   }
+
+    @Override
+    public String toString() {
+        return "Design";
+    }
 }

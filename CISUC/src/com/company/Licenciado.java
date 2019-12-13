@@ -6,4 +6,5 @@ public class Licenciado extends Formando{
         super(nome, email);
         this.custo = 500;
     }
+
 }

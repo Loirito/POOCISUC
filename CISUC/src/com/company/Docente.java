@@ -9,9 +9,17 @@ public class Docente extends Pessoa{
         super(nome, email);
         this.numeroDoc = numeroDoc;
         this.area = area;
+        this.custo = 0;
     }
 
     public Docente() {}
 
+    public int getNumeroDoc() {
+        return numeroDoc;
+    }
+
+    public String getArea() {
+        return area;
+    }
 
 }
